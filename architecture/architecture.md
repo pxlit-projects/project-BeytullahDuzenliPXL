@@ -13,7 +13,7 @@
 - **Review Eligibility Check** (US2, US7): Before reviewing a post, the `ReviewService` checks if the post is in a "submitted" state by calling the `PostService`.  
 
 ## Asynchronous Communication
-- **Post Approval Notification** (US7, US8): After a post is approved or rejected in the `ReviewService`, an event is sent to the queue using RabbitMQ. The `PostService` asynchronously listens to this queue to update the status of the post accordingly.  
+- **Post Approval Notification** (US7, US8): When a post is approved or rejected in the `ReviewService`, it sends a message to RabbitMQ. The `PostService` listens for this message and updates the post status asynchronously.
 
 - **Comment Notifications** (US10, US11, US12): When a new comment is added in the `CommentService`, an event is emitted to notify other services asynchronously, ensuring updates without blocking the main flow.  
 
