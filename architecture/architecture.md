@@ -24,7 +24,7 @@
 - **US2**: As an editor, I want to save posts as drafts so that I can continue working on them later or wait for approval.
 - **US3**: As an editor, I want to edit the content of a post so that I can correct errors and update information.
 - **US4**: As a user, I want to see an overview of published posts so that I can stay informed about the latest news.
-- **US5**: As a user, I want to filter posts based on content, author, and category.
+- **US5**: As a user, I want to filter posts based on content, author, and date.
 
 ### ReviewService
 - **US7**: As a chief editor, I want to review submitted posts and either approve or reject them so that only approved content is published.
