@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  mysql-post:
+    image: mysql:latest
+    ports:
+      - '3307:3306'
+    restart: always
+    environment:
+      MYSQL_DATABASE: postservice_db
+      #      MYSQL_USER: root
+      #      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - mysql-post-data:/var/lib/mysql
+
+volumes:
+    mysql-post-data:
