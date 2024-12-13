@@ -27,7 +27,7 @@
 - **US5**: As a user, I want to filter posts based on content, author, and date.
 
 ### ReviewService
-- **US7**: As a chief editor, I want to review submitted posts and either approve or reject them so that only approved content is published.
+- **US7**: As an editor, I want to review submitted posts and either approve or reject them so that only approved content is published.
 - **US8**: As an editor, I want to receive a notification when a post is approved or rejected so that I know whether it can be published or needs revision.
 - **US9**: As an editor, I want to add comments when rejecting a post so that the author knows what changes are needed.
 
