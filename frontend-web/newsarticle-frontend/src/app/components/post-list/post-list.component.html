@@ -1,0 +1,93 @@
+<div class="p-8 flex flex-col items-center bg-gray-50">
+  <div class="mb-6 flex flex-wrap gap-4 items-end">
+    <div>
+      <label for="searchQuery" class="block text-sm font-medium text-gray-700">Zoeken</label>
+      <input
+        id="searchQuery"
+        type="text"
+        [(ngModel)]="searchQuery"
+        placeholder="Zoek op inhoud"
+        class="px-3 py-2 border border-gray-300 rounded shadow-sm focus:ring-blue-500 focus:border-blue-500"
+      />
+    </div>
+
+    <div>
+      <label for="selectedAuthor" class="block text-sm font-medium text-gray-700">Auteur</label>
+      <input
+        id="selectedAuthor"
+        type="text"
+        [(ngModel)]="selectedAuthor"
+        placeholder="Auteur"
+        class="px-3 py-2 border border-gray-300 rounded shadow-sm focus:ring-blue-500 focus:border-blue-500"
+      />
+    </div>
+
+    <div>
+      <label for="fromDate" class="block text-sm font-medium text-gray-700">Van Datum</label>
+      <input
+        id="fromDate"
+        type="date"
+        [(ngModel)]="fromDate"
+        (change)="updateToDateLimit()"
+        class="px-3 py-2 border border-gray-300 rounded shadow-sm focus:ring-blue-500 focus:border-blue-500"
+      />
+    </div>
+    <div>
+      <label for="toDate" class="block text-sm font-medium text-gray-700">Tot Datum</label>
+      <input
+        id="toDate"
+        type="date"
+        [(ngModel)]="toDate"
+        [min]="fromDate"
+        class="px-3 py-2 border border-gray-300 rounded shadow-sm focus:ring-blue-500 focus:border-blue-500"
+      />
+    </div>
+      
+    <div class="flex gap-2">
+      <button
+        (click)="applyFilters()"
+        class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+      >
+        Zoeken
+      </button>
+      <button
+        (click)="resetFilters()"
+        class="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
+      >
+        Reset
+      </button>
+    </div>
+  </div>
+
+  @for (post of posts; track post.id) {
+    <div class="w-full max-w-4xl mb-8 border border-gray-200 rounded-lg shadow-md bg-white overflow-hidden transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl group">
+      <div class="p-6 relative">
+        <h2 
+          class="text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors duration-200">
+          {{ post.title }}
+        </h2>
+
+        <p class="mt-4 text-gray-700 leading-relaxed line-clamp-3 group-hover:text-gray-900 transition-colors duration-300">
+          {{ post.content }}
+        </p>
+        
+        <p class="text-sm text-gray-500 mt-2">
+          By <span class="font-medium">{{ post.author }}</span> | 
+          <span class="uppercase">{{ post.status }}</span>
+        </p>
+        
+        <div class="mt-6 flex items-center justify-between">
+          <p class="text-sm text-gray-400">Geplaatst op: {{ post.creationDate | date:'yyyy-MM-dd' }}</p>
+          <a 
+            href="/posts/{{ post.id }}" 
+            class="text-blue-600 font-medium hover:underline transition-all duration-300">
+            Open post →
+          </a>
+        </div>
+      </div>
+    </div>
+  }
+  @empty {
+    <p class="text-gray-500 text-center text-lg">No articles available at the moment.</p>
+  }
+</div>

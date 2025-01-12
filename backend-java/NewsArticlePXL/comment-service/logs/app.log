@@ -1,0 +1,30 @@
+2025-01-09T14:12:13.728+0100 INFO               [main]                         be.pxl.services.CommentControllerTests - Starting CommentControllerTests using Java 17.0.5 with PID 3419 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/comment-service)
+2025-01-09T14:12:13.728+0100 DEBUG              [main]                         be.pxl.services.CommentControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:12:13.729+0100 INFO               [main]                         be.pxl.services.CommentControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:12:16.685+0100 INFO               [main]                         be.pxl.services.CommentControllerTests - Started CommentControllerTests in 3.426 seconds (process running for 25.982)
+2025-01-09T14:12:17.223+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to delete comment with ID: 9999
+2025-01-09T14:12:17.230+0100 INFO               [main]                         be.pxl.services.services.CommentService - Comment with ID: 9999 deleted successfully
+2025-01-09T14:12:17.304+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to update comment with ID: 9999
+2025-01-09T14:12:17.313+0100 ERROR              [main]                         be.pxl.services.services.CommentService - Comment with ID: 9999 not found
+2025-01-09T14:12:17.358+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to delete comment with ID: 7
+2025-01-09T14:12:17.368+0100 INFO               [main]                         be.pxl.services.services.CommentService - Comment with ID: 7 deleted successfully
+2025-01-09T14:12:17.442+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to update comment with ID: 13
+2025-01-09T14:12:17.464+0100 INFO               [main]                         be.pxl.services.services.CommentService - Comment with ID: 13 updated successfully
+2025-01-09T14:12:17.605+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to create a new comment for post with ID: 101
+2025-01-09T14:12:17.611+0100 INFO               [main]                         be.pxl.services.services.CommentService - Comment with ID: 28 created successfully
+2025-01-09T14:12:17.644+0100 INFO               [main]                         be.pxl.services.services.CommentService - Fetching comments for post with ID: 101
+2025-01-09T14:14:06.940+0100 INFO               [main]                         be.pxl.services.CommentControllerTests - Starting CommentControllerTests using Java 17.0.5 with PID 3461 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/comment-service)
+2025-01-09T14:14:06.942+0100 DEBUG              [main]                         be.pxl.services.CommentControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:14:06.942+0100 INFO               [main]                         be.pxl.services.CommentControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:14:11.942+0100 INFO               [main]                         be.pxl.services.CommentControllerTests - Started CommentControllerTests in 6.717 seconds (process running for 33.146)
+2025-01-09T14:14:13.141+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to delete comment with ID: 1
+2025-01-09T14:14:13.235+0100 INFO               [main]                         be.pxl.services.services.CommentService - Comment with ID: 1 deleted successfully
+2025-01-09T14:14:13.403+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to update comment with ID: 7
+2025-01-09T14:14:13.433+0100 INFO               [main]                         be.pxl.services.services.CommentService - Comment with ID: 7 updated successfully
+2025-01-09T14:14:13.635+0100 INFO               [main]                         be.pxl.services.services.CommentService - Attempting to create a new comment for post with ID: 101
+2025-01-09T14:14:13.643+0100 INFO               [main]                         be.pxl.services.services.CommentService - Comment with ID: 22 created successfully
+2025-01-09T14:14:13.691+0100 INFO               [main]                         be.pxl.services.services.CommentService - Fetching comments for post with ID: 101
+2025-01-09T14:14:16.350+0100 INFO               [main]                         be.pxl.services.CommentServiceApplicationTests - Starting CommentServiceApplicationTests using Java 17.0.5 with PID 3461 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/comment-service)
+2025-01-09T14:14:16.350+0100 DEBUG              [main]                         be.pxl.services.CommentServiceApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:14:16.350+0100 INFO               [main]                         be.pxl.services.CommentServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:14:18.289+0100 INFO               [main]                         be.pxl.services.CommentServiceApplicationTests - Started CommentServiceApplicationTests in 2.198 seconds (process running for 39.493)

@@ -1,0 +1,357 @@
+2025-01-08T20:22:19.158+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 17.0.5 with PID 4217 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:22:19.159+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:22:19.159+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:22:23.183+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 4.633 seconds (process running for 28.498)
+2025-01-08T20:22:23.883+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:22:23.890+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:22:23.946+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:22:23.976+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:22:24.026+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:22:24.031+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:22:24.234+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 20
+2025-01-08T20:22:24.261+0100 ERROR              [main]                         be.pxl.services.services.PostService - Invalid status: PUBLISHED for updating post
+2025-01-08T20:22:24.464+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:22:24.476+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:22:24.550+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 29
+2025-01-08T20:22:24.562+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 29 fetched successfully
+2025-01-08T20:23:10.713+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 17.0.5 with PID 4246 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:23:10.714+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:23:10.714+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:23:14.186+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 3.928 seconds (process running for 27.573)
+2025-01-08T20:23:14.804+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:23:14.811+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:23:14.860+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:23:14.886+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:23:14.941+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:23:14.948+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:23:15.083+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 20
+2025-01-08T20:23:15.091+0100 ERROR              [main]                         be.pxl.services.services.PostService - Invalid status: PUBLISHED for updating post
+2025-01-08T20:23:15.162+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:23:15.170+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:23:15.214+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 29
+2025-01-08T20:23:15.221+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 29 fetched successfully
+2025-01-08T20:26:47.536+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 17.0.5 with PID 4315 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:26:47.537+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:26:47.537+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:26:51.032+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 3.939 seconds (process running for 30.168)
+2025-01-08T20:26:51.647+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:26:51.656+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:26:51.703+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:26:51.729+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:26:51.857+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 17
+2025-01-08T20:26:51.880+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 17 updated successfully
+2025-01-08T20:26:51.948+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:26:51.955+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:26:51.996+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 26
+2025-01-08T20:26:52.002+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 fetched successfully
+2025-01-08T20:31:56.206+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 17.0.5 with PID 4480 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:31:56.208+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:31:56.208+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:32:00.150+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 4.418 seconds (process running for 27.708)
+2025-01-08T20:32:00.815+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:32:00.829+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:32:00.894+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T20:32:00.910+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T20:32:01.056+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: null
+2025-01-08T20:32:01.068+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 17 created successfully
+2025-01-08T20:32:01.206+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:32:01.240+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:32:01.479+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 33
+2025-01-08T20:32:01.514+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 33 updated successfully
+2025-01-08T20:32:01.661+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:32:01.672+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:32:01.742+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 45
+2025-01-08T20:32:01.753+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 45 fetched successfully
+2025-01-08T20:32:01.823+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 48 to PUBLISHED
+2025-01-08T20:32:01.846+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 48 updated to PUBLISHED
+2025-01-08T20:34:58.189+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 17.0.5 with PID 4602 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:34:58.191+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:34:58.191+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:35:01.544+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 3.845 seconds (process running for 26.719)
+2025-01-08T20:35:42.077+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 17.0.5 with PID 4626 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:35:42.078+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:35:42.079+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:35:46.695+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 5.118 seconds (process running for 31.012)
+2025-01-08T20:35:47.336+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:35:47.344+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:35:47.393+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T20:35:47.402+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T20:35:47.588+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: null
+2025-01-08T20:35:47.604+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 17 created successfully
+2025-01-08T20:35:47.807+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:35:47.871+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:35:48.182+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 33
+2025-01-08T20:35:48.219+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 33 updated successfully
+2025-01-08T20:35:48.405+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:35:48.418+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:35:48.493+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 45
+2025-01-08T20:35:48.510+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 45 fetched successfully
+2025-01-08T20:35:48.602+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 48 to PUBLISHED
+2025-01-08T20:35:48.625+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 48 updated to PUBLISHED
+2025-01-08T20:38:38.718+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Starting PostControllerTest using Java 17.0.5 with PID 4693 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:38:38.719+0100 DEBUG              [main]                         be.pxl.services.controller.PostControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:38:38.720+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:38:42.541+0100 INFO               [main]                         be.pxl.services.controller.PostControllerTest - Started PostControllerTest in 4.313 seconds (process running for 27.564)
+2025-01-08T20:38:43.141+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:38:43.150+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:38:43.199+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T20:38:43.212+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T20:38:43.318+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:38:43.349+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:38:43.560+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T20:38:43.593+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T20:38:43.715+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:38:43.723+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:38:43.767+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T20:38:43.775+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T20:38:43.823+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T20:38:43.839+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T20:44:34.097+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Starting PostServiceTests using Java 17.0.5 with PID 4796 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:44:34.098+0100 DEBUG              [main]                         be.pxl.services.PostServiceTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:44:34.099+0100 INFO               [main]                         be.pxl.services.PostServiceTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:44:37.653+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Started PostServiceTests in 4.041 seconds (process running for 28.645)
+2025-01-08T20:44:38.255+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:44:38.263+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:44:38.311+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T20:44:38.320+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T20:44:38.404+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:44:38.429+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:44:38.591+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T20:44:38.615+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T20:44:38.721+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:44:38.728+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:44:38.768+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T20:44:38.774+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T20:44:38.878+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T20:44:38.892+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T20:48:21.961+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTest using Java 17.0.5 with PID 4875 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:48:21.962+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:48:21.962+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:48:27.793+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTest in 6.869 seconds (process running for 32.217)
+2025-01-08T20:48:28.802+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:48:28.813+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:48:28.870+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T20:48:28.882+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T20:48:28.983+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:48:29.023+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:48:29.219+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T20:48:29.257+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T20:48:29.442+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:48:29.456+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:48:29.507+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T20:48:29.512+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T20:48:29.560+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T20:48:29.574+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T20:55:55.600+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Starting PostServiceTests using Java 17.0.5 with PID 5164 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:55:55.601+0100 DEBUG              [main]                         be.pxl.services.PostServiceTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:55:55.602+0100 INFO               [main]                         be.pxl.services.PostServiceTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:56:02.452+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Started PostServiceTests in 8.218 seconds (process running for 10.437)
+2025-01-08T20:56:03.690+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T20:56:03.691+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T20:56:03.780+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:56:03.780+0100 ERROR              [main]                         be.pxl.services.services.PostService - Invalid initial status: PUBLISHED
+2025-01-08T20:56:03.790+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:56:03.790+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: null created successfully
+2025-01-08T20:56:03.882+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T20:56:03.882+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T20:56:03.890+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T20:56:03.890+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T20:56:03.898+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: DRAFT
+2025-01-08T20:56:03.899+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 0 posts with status: DRAFT
+2025-01-08T20:56:03.953+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T20:56:03.953+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T20:56:03.960+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 1 to PUBLISHED
+2025-01-08T20:56:03.961+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T20:56:30.071+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTest using Java 17.0.5 with PID 5164 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T20:56:30.071+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T20:56:30.071+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T20:56:31.174+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTest in 1.208 seconds (process running for 39.159)
+2025-01-08T20:56:31.594+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T20:56:31.605+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T20:56:31.657+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T20:56:31.668+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T20:56:31.757+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T20:56:31.790+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T20:56:31.960+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T20:56:31.984+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T20:56:32.089+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T20:56:32.097+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T20:56:32.145+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T20:56:32.150+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T20:56:32.191+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T20:56:32.202+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T21:01:40.272+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Starting PostServiceTests using Java 17.0.5 with PID 5273 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:01:40.273+0100 DEBUG              [main]                         be.pxl.services.PostServiceTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:01:40.274+0100 INFO               [main]                         be.pxl.services.PostServiceTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:01:46.054+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Started PostServiceTests in 6.968 seconds (process running for 8.378)
+2025-01-08T21:01:47.137+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T21:01:47.138+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:01:47.227+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:01:47.227+0100 ERROR              [main]                         be.pxl.services.services.PostService - Invalid initial status: PUBLISHED
+2025-01-08T21:01:47.237+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:01:47.237+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: null created successfully
+2025-01-08T21:01:47.328+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T21:01:47.329+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:01:47.337+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T21:01:47.337+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:01:47.347+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: DRAFT
+2025-01-08T21:01:47.347+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 0 posts with status: DRAFT
+2025-01-08T21:01:47.408+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T21:01:47.408+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:01:47.415+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 1 to PUBLISHED
+2025-01-08T21:01:47.416+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:02:14.038+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTest using Java 17.0.5 with PID 5273 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:02:14.039+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:02:14.039+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:02:15.105+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTest in 1.206 seconds (process running for 37.429)
+2025-01-08T21:02:15.529+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:02:15.537+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T21:02:15.605+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T21:02:15.619+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T21:02:15.718+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T21:02:15.753+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T21:02:15.946+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T21:02:15.969+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T21:02:16.084+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T21:02:16.095+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T21:02:16.141+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T21:02:16.147+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T21:02:16.188+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T21:02:16.199+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T21:07:28.408+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Starting PostServiceTests using Java 17.0.5 with PID 5407 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:07:28.408+0100 DEBUG              [main]                         be.pxl.services.PostServiceTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:07:28.409+0100 INFO               [main]                         be.pxl.services.PostServiceTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:07:31.804+0100 INFO               [main]                         be.pxl.services.PostServiceTests - Started PostServiceTests in 3.919 seconds (process running for 4.614)
+2025-01-08T21:07:32.431+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T21:07:32.432+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:07:32.457+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:07:32.457+0100 ERROR              [main]                         be.pxl.services.services.PostService - Invalid initial status: PUBLISHED
+2025-01-08T21:07:32.465+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:07:32.465+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: null created successfully
+2025-01-08T21:07:32.499+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T21:07:32.499+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:07:32.505+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T21:07:32.505+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:07:32.512+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: DRAFT
+2025-01-08T21:07:32.512+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 0 posts with status: DRAFT
+2025-01-08T21:07:32.528+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T21:07:32.528+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:07:32.533+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 1 to PUBLISHED
+2025-01-08T21:07:32.534+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:12:30.486+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTest using Java 17.0.5 with PID 5495 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:12:30.487+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:12:30.488+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:12:37.660+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTest in 8.489 seconds (process running for 36.984)
+2025-01-08T21:12:38.334+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:12:38.342+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T21:12:38.402+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T21:12:38.416+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T21:12:38.533+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T21:12:38.576+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T21:12:38.791+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T21:12:38.825+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T21:12:38.981+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T21:12:38.996+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T21:12:39.081+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T21:12:39.096+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T21:12:39.191+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T21:12:39.214+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T21:17:32.945+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTest using Java 17.0.5 with PID 5589 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:17:32.947+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:17:32.947+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:17:38.511+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTest in 6.576 seconds (process running for 33.799)
+2025-01-08T21:17:38.953+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:17:38.961+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T21:17:39.013+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T21:17:39.026+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T21:17:39.120+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T21:17:39.153+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T21:17:39.330+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T21:17:39.355+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T21:17:39.486+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T21:17:39.495+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T21:17:39.538+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T21:17:39.544+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T21:17:39.594+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T21:17:39.608+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T21:21:49.321+0100 INFO               [main]                         be.pxl.services.NotificationTests - Starting NotificationTests using Java 17.0.5 with PID 5717 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:21:49.322+0100 DEBUG              [main]                         be.pxl.services.NotificationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:21:49.323+0100 INFO               [main]                         be.pxl.services.NotificationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:21:51.659+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: DRAFT
+2025-01-08T21:21:51.672+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 0 posts with status: DRAFT
+2025-01-08T21:21:51.939+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T21:21:51.940+0100 ERROR              [main]                         be.pxl.services.services.PostService - Invalid status: PUBLISHED for updating post
+2025-01-08T21:21:51.952+0100 INFO               [main]                         be.pxl.services.services.PostService - Received review message for post ID: 1
+2025-01-08T21:21:51.952+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:21:51.956+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T21:21:51.956+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:21:51.960+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:21:51.960+0100 ERROR              [main]                         be.pxl.services.services.PostService - Invalid initial status: PUBLISHED
+2025-01-08T21:21:51.963+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:21:51.964+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 1 created successfully
+2025-01-08T21:21:52.013+0100 INFO               [main]                         be.pxl.services.services.PostService - Received review message for post ID: 1
+2025-01-08T21:21:52.014+0100 INFO               [main]                         be.pxl.services.services.PostService - Updated post ID: 1 with status: PUBLISHED
+2025-01-08T21:21:52.017+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T21:21:52.018+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 1 not found
+2025-01-08T21:21:52.021+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 1
+2025-01-08T21:21:52.022+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 1 fetched successfully
+2025-01-08T21:21:52.026+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: DRAFT
+2025-01-08T21:21:52.026+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: DRAFT
+2025-01-08T21:21:52.030+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 1
+2025-01-08T21:21:52.030+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 1 updated successfully
+2025-01-08T21:21:52.033+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 1 to PUBLISHED
+2025-01-08T21:21:52.034+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 1 updated to PUBLISHED
+2025-01-08T21:22:17.893+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTests using Java 17.0.5 with PID 5717 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:22:17.894+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:22:17.894+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:22:22.829+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTests in 5.063 seconds (process running for 36.861)
+2025-01-08T21:22:23.268+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:22:23.275+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T21:22:23.337+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T21:22:23.350+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T21:22:23.456+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T21:22:23.491+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T21:22:23.677+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T21:22:23.703+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T21:22:23.819+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T21:22:23.828+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T21:22:23.871+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T21:22:23.878+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T21:22:23.918+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T21:22:23.929+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T21:25:49.811+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTests using Java 17.0.5 with PID 5826 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:25:49.812+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:25:49.813+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:25:54.861+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTests in 6.004 seconds (process running for 33.356)
+2025-01-08T21:25:55.324+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:25:55.332+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T21:25:55.386+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T21:25:55.396+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T21:25:55.498+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T21:25:55.535+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T21:25:55.733+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T21:25:55.762+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T21:25:55.875+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T21:25:55.885+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T21:25:55.934+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T21:25:55.942+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T21:25:55.986+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T21:25:55.998+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED
+2025-01-08T21:30:33.057+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Starting PostControllerTests using Java 17.0.5 with PID 5934 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service)
+2025-01-08T21:30:33.059+0100 DEBUG              [main]                         be.pxl.services.PostControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-08T21:30:33.060+0100 INFO               [main]                         be.pxl.services.PostControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-08T21:30:39.821+0100 INFO               [main]                         be.pxl.services.PostControllerTests - Started PostControllerTests in 7.968 seconds (process running for 33.863)
+2025-01-08T21:30:40.356+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to create a new post with title: Title
+2025-01-08T21:30:40.366+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 7 created successfully
+2025-01-08T21:30:40.433+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 9999
+2025-01-08T21:30:40.448+0100 ERROR              [main]                         be.pxl.services.services.PostService - Post with ID: 9999 not found
+2025-01-08T21:30:40.577+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2025-01-08T21:30:40.624+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with given filters
+2025-01-08T21:30:41.103+0100 INFO               [main]                         be.pxl.services.services.PostService - Attempting to update post with ID: 26
+2025-01-08T21:30:41.144+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 26 updated successfully
+2025-01-08T21:30:41.304+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching posts with status: PUBLISHED
+2025-01-08T21:30:41.316+0100 DEBUG              [main]                         be.pxl.services.services.PostService - Found 1 posts with status: PUBLISHED
+2025-01-08T21:30:41.385+0100 INFO               [main]                         be.pxl.services.services.PostService - Fetching post with ID: 38
+2025-01-08T21:30:41.398+0100 INFO               [main]                         be.pxl.services.services.PostService - Post with ID: 38 fetched successfully
+2025-01-08T21:30:41.586+0100 INFO               [main]                         be.pxl.services.services.PostService - Updating status of post with ID: 41 to PUBLISHED
+2025-01-08T21:30:41.631+0100 INFO               [main]                         be.pxl.services.services.PostService - Status of post with ID: 41 updated to PUBLISHED

@@ -1,0 +1,357 @@
+2024-12-29T00:46:41.108+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 17.0.5 with PID 7408 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T00:46:41.110+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T00:46:41.110+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T00:46:44.639+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 4.112 seconds (process running for 4.499)
+2024-12-29T00:46:46.709+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - Starting ReviewServiceApplication using Java 17.0.5 with PID 7412 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T00:46:46.710+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T00:46:46.713+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T00:46:48.147+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - Starting CommentServiceApplication using Java 17.0.5 with PID 7414 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/comment-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T00:46:48.148+0100 DEBUG              [main]                         be.pxl.services.CommentServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T00:46:48.148+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T00:46:50.419+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - Started ReviewServiceApplication in 4.31 seconds (process running for 4.664)
+2024-12-29T00:46:51.871+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - Started CommentServiceApplication in 4.437 seconds (process running for 4.893)
+2024-12-29T00:47:43.123+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Title: null, Author: jawel, FromDate: null, ToDate: null
+2024-12-29T00:47:43.230+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T00:47:46.310+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Title: null, Author: jawel, FromDate: null, ToDate: null
+2024-12-29T00:47:46.319+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T00:47:54.887+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Title: null, Author: jawel, FromDate: null, ToDate: null
+2024-12-29T00:47:54.893+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T00:50:59.575+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 17.0.5 with PID 7523 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T00:50:59.576+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T00:50:59.577+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T00:51:03.056+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 3.992 seconds (process running for 4.341)
+2024-12-29T00:51:38.543+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: jawel, FromDate: null, ToDate: null
+2024-12-29T00:51:38.633+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T00:52:21.369+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: jawel, FromDate: null, ToDate: null
+2024-12-29T00:52:21.389+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T00:53:45.534+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: jawel, FromDate: null, ToDate: null
+2024-12-29T00:53:45.559+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T00:55:28.519+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: jawel, FromDate: null, ToDate: null
+2024-12-29T00:55:28.555+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T00:55:32.555+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:55:32.573+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T00:56:01.831+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:56:01.841+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T00:56:07.896+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: rit, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:56:07.907+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 1 posts with given filters
+2024-12-29T00:56:09.979+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: ri, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:56:09.990+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 1 posts with given filters
+2024-12-29T00:56:12.321+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: ja, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:56:12.331+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T00:56:18.759+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: bet, FromDate: null, ToDate: null
+2024-12-29T00:56:18.769+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T00:56:20.508+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null
+2024-12-29T00:56:20.519+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 7 posts with given filters
+2024-12-29T00:56:27.743+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:56:27.759+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T00:56:59.836+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:56:59.849+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T00:58:27.739+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T00:58:27.763+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T00:58:36.453+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-28T18:04:17.123866, ToDate: null
+2024-12-29T00:58:36.463+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 5 posts with given filters
+2024-12-29T00:58:56.667+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-28T18:04:17.123866, ToDate: null
+2024-12-29T00:58:56.677+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 5 posts with given filters
+2024-12-29T01:01:22.235+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-28T18:04:17, ToDate: null
+2024-12-29T01:01:22.277+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 5 posts with given filters
+2024-12-29T01:01:40.496+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-28T18:04:17, ToDate: null
+2024-12-29T01:01:40.507+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 5 posts with given filters
+2024-12-29T01:02:10.275+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-28T00:00, ToDate: null
+2024-12-29T01:02:10.294+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 9 posts with given filters
+2024-12-29T01:06:02.516+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:06:02.549+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:06:11.150+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:06:11.158+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:06:52.761+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:06:52.777+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:06:55.544+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: jaja, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:06:55.554+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T01:07:28.883+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:07:28.891+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:07:42.263+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:07:42.272+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:07:45.634+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:07:45.645+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:07:47.243+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:07:47.250+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:07:48.434+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:07:48.441+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:07:50.736+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:07:50.744+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:07:53.721+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-28T00:00, ToDate: null
+2024-12-29T01:07:53.730+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 9 posts with given filters
+2024-12-29T01:08:07.177+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-27T00:00, ToDate: 2024-12-27T00:00
+2024-12-29T01:08:07.186+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T01:08:12.109+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-26T00:00, ToDate: 2024-12-27T00:00
+2024-12-29T01:08:12.117+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 6 posts with given filters
+2024-12-29T01:08:31.813+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:08:31.820+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:08:33.835+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:08:33.845+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:08:35.027+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:08:35.033+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:08:52.343+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:08:52.351+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:08:54.998+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-27T00:00, ToDate: null
+2024-12-29T01:08:55.014+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 12 posts with given filters
+2024-12-29T01:08:58.458+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-27T00:00, ToDate: 2024-12-27T23:59:59
+2024-12-29T01:08:58.466+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T01:12:45.528+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null
+2024-12-29T01:12:45.553+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 7 posts with given filters
+2024-12-29T01:12:46.194+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T01:12:46.223+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 0 posts with status: SUBMITTED
+2024-12-29T01:12:46.978+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T01:12:46.988+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 0 posts with status: SUBMITTED
+2024-12-29T01:12:47.239+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null
+2024-12-29T01:12:47.244+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 7 posts with given filters
+2024-12-29T01:12:49.591+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T01:12:49.596+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 0 posts with status: SUBMITTED
+2024-12-29T01:13:08.902+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:13:08.910+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:15:00.556+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:15:00.573+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:16:01.951+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:16:01.971+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:16:09.530+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-29T00:00, ToDate: 2024-12-11T23:59:59
+2024-12-29T01:16:09.541+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T01:17:54.655+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:17:54.680+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:18:06.451+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:18:06.458+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:20:27.678+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:20:27.705+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:20:52.318+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-21T00:00, ToDate: 2024-12-21T23:59:59
+2024-12-29T01:20:52.328+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T01:20:56.936+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-28T00:00, ToDate: 2024-12-28T23:59:59
+2024-12-29T01:20:56.947+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 9 posts with given filters
+2024-12-29T01:21:03.495+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: 2024-12-28T23:59:59
+2024-12-29T01:21:03.506+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:21:07.419+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:21:07.428+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:21:16.826+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T01:21:16.834+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T01:21:28.878+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-20T00:00, ToDate: 2024-12-20T23:59:59
+2024-12-29T01:21:28.901+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T15:13:02.722+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 17.0.5 with PID 1940 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T15:13:02.723+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T15:13:02.724+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T15:13:04.320+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - Starting ReviewServiceApplication using Java 17.0.5 with PID 1944 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T15:13:04.321+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T15:13:04.322+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T15:13:07.467+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - Starting CommentServiceApplication using Java 17.0.5 with PID 1946 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/comment-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T15:13:07.468+0100 DEBUG              [main]                         be.pxl.services.CommentServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T15:13:07.469+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T15:13:10.195+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 8.082 seconds (process running for 8.481)
+2024-12-29T15:13:11.574+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplication - Started ReviewServiceApplication in 7.904 seconds (process running for 8.325)
+2024-12-29T15:13:13.414+0100 INFO               [main]                         be.pxl.services.CommentServiceApplication - Started CommentServiceApplication in 7.973 seconds (process running for 8.707)
+2024-12-29T15:15:18.580+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:15:18.757+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 20 posts with given filters
+2024-12-29T15:15:19.939+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:15:19.962+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 0 posts with status: SUBMITTED
+2024-12-29T15:15:21.205+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null
+2024-12-29T15:15:21.216+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 7 posts with given filters
+2024-12-29T15:15:24.970+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Attempting to create a new post with title: kaa
+2024-12-29T15:15:25.023+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Post with ID: 21 created successfully
+2024-12-29T15:15:25.057+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null
+2024-12-29T15:15:25.071+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 8 posts with given filters
+2024-12-29T15:15:26.102+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:15:26.111+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:15:32.278+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:15:32.288+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 21 posts with given filters
+2024-12-29T15:15:33.156+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null
+2024-12-29T15:15:33.164+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T15:15:33.755+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:15:33.763+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:15:35.857+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null
+2024-12-29T15:15:35.866+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 2 posts with given filters
+2024-12-29T15:15:38.910+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Attempting to create a new post with title: jaja
+2024-12-29T15:15:38.929+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Post with ID: 22 created successfully
+2024-12-29T15:15:38.959+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null
+2024-12-29T15:15:38.967+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T15:15:39.763+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:15:39.771+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 2 posts with status: SUBMITTED
+2024-12-29T15:15:42.405+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching post with ID: 21
+2024-12-29T15:15:42.423+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Post with ID: 21 fetched successfully
+2024-12-29T15:15:44.518+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:15:44.523+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 2 posts with status: SUBMITTED
+2024-12-29T15:15:44.950+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null
+2024-12-29T15:15:44.954+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T15:15:47.511+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:15:47.519+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:16:41.739+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:16:41.765+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:16:53.201+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null
+2024-12-29T15:16:53.222+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T15:16:53.765+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:16:53.776+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:17:00.203+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:17:00.215+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:17:34.550+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:17:34.589+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:17:41.048+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:17:41.061+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:17:51.943+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:17:51.953+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:17:57.640+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:17:57.653+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:18:07.700+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:18:07.720+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:19:42.850+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:19:42.866+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:19:48.574+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:19:48.584+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:19:50.305+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:19:50.312+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:20:01.658+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:20:01.666+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:20:09.249+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:20:09.257+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:20:11.622+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:20:11.646+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:21:42.342+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:21:42.381+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:22:26.608+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:22:26.653+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:22:36.235+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:22:36.244+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:22:41.917+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:22:41.928+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:22:45.270+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:22:45.281+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:22:52.775+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:22:52.784+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:22:58.672+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching post with ID: 22
+2024-12-29T15:22:58.686+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Post with ID: 22 fetched successfully
+2024-12-29T15:22:58.788+0100 INFO               [http-nio-8084-exec-1]         be.pxl.services.services.CommentService - Fetching comments for post with ID: 22
+2024-12-29T15:23:01.490+0100 INFO               [http-nio-8084-exec-2]         be.pxl.services.services.CommentService - Attempting to create a new comment for post with ID: 22
+2024-12-29T15:23:01.556+0100 INFO               [http-nio-8084-exec-2]         be.pxl.services.services.CommentService - Comment with ID: 8 created successfully
+2024-12-29T15:23:08.055+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:23:08.065+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:23:09.483+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching post with ID: 22
+2024-12-29T15:23:09.484+0100 INFO               [http-nio-8084-exec-3]         be.pxl.services.services.CommentService - Fetching comments for post with ID: 22
+2024-12-29T15:23:09.493+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Post with ID: 22 fetched successfully
+2024-12-29T15:23:18.874+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:23:18.883+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:23:19.122+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null
+2024-12-29T15:23:19.126+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 8 posts with given filters
+2024-12-29T15:23:19.429+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:23:19.440+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 2 posts with status: SUBMITTED
+2024-12-29T15:23:23.162+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:23:23.172+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 2 posts with status: SUBMITTED
+2024-12-29T15:23:24.617+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching post with ID: 22
+2024-12-29T15:23:24.632+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Post with ID: 22 fetched successfully
+2024-12-29T15:23:27.228+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 22
+2024-12-29T15:23:27.292+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching post with ID: 22
+2024-12-29T15:23:27.299+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Post with ID: 22 fetched successfully
+2024-12-29T15:23:27.416+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.ReviewService - Creating a new review for post ID: 22.
+2024-12-29T15:23:27.456+0100 INFO               [http-nio-8082-exec-1]         be.pxl.services.services.ReviewService - Review for post with ID: 22 saved successfully
+2024-12-29T15:23:27.535+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] be.pxl.services.services.PostService - Received review message for post ID: 22
+2024-12-29T15:23:27.562+0100 INFO               [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] be.pxl.services.services.PostService - Updated post ID: 22 with status: PUBLISHED
+2024-12-29T15:23:27.565+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:23:27.568+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:23:28.711+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null
+2024-12-29T15:23:28.719+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 8 posts with given filters
+2024-12-29T15:23:33.073+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null
+2024-12-29T15:23:33.082+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:27:44.143+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Starting PostServiceApplication using Java 17.0.5 with PID 2254 (/Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/post-service/target/classes started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL)
+2024-12-29T15:27:44.144+0100 DEBUG              [main]                         be.pxl.services.PostServiceApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-29T15:27:44.145+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-29T15:27:47.407+0100 INFO               [main]                         be.pxl.services.PostServiceApplication - Started PostServiceApplication in 3.981 seconds (process running for 4.547)
+2024-12-29T15:27:59.130+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:27:59.207+0100 DEBUG              [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:28:06.237+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:28:06.257+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 22 posts with given filters
+2024-12-29T15:28:23.492+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:28:23.512+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:28:31.406+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: DRAFT
+2024-12-29T15:28:31.432+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 11 posts with given filters
+2024-12-29T15:28:39.884+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:28:39.891+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:28:50.862+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:28:50.872+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:28:51.054+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:28:51.060+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 8 posts with given filters
+2024-12-29T15:28:56.655+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:28:56.683+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:28:57.484+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:28:57.493+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:28:59.408+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:28:59.421+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 8 posts with given filters
+2024-12-29T15:29:02.947+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:29:02.955+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:30:01.014+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:30:01.029+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T15:30:05.561+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:30:05.571+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:30:17.080+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching post with ID: 22
+2024-12-29T15:30:17.088+0100 INFO               [http-nio-8084-exec-5]         be.pxl.services.services.CommentService - Fetching comments for post with ID: 22
+2024-12-29T15:30:17.130+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Post with ID: 22 fetched successfully
+2024-12-29T15:30:22.518+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:30:22.526+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T15:30:26.239+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:30:26.248+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 3 posts with given filters
+2024-12-29T15:30:31.592+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Attempting to create a new post with title: jaja
+2024-12-29T15:30:31.649+0100 INFO               [http-nio-8081-exec-1]         be.pxl.services.services.PostService - Post with ID: 23 created successfully
+2024-12-29T15:30:31.682+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:30:31.686+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T15:30:39.688+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:30:39.697+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:30:40.319+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:30:40.331+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:30:41.242+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: beto, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:30:41.256+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 8 posts with given filters
+2024-12-29T15:30:50.396+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:30:50.404+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:30:51.059+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:30:51.067+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T15:30:52.535+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching post with ID: 23
+2024-12-29T15:30:52.545+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Post with ID: 23 fetched successfully
+2024-12-29T15:30:54.905+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:30:54.918+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T15:30:55.149+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:30:55.167+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:35:25.193+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:35:25.208+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T15:35:27.008+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:35:27.016+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:35:27.679+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:35:27.684+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:35:27.986+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:35:27.991+0100 DEBUG              [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T15:35:28.653+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:35:28.661+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:35:44.402+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:35:44.410+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T15:35:49.111+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:35:49.118+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:35:50.251+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching post with ID: 21
+2024-12-29T15:35:50.263+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Post with ID: 21 fetched successfully
+2024-12-29T15:35:57.937+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: ja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:35:57.947+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 4 posts with given filters
+2024-12-29T15:35:59.321+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:35:59.330+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:36:23.096+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: 2024-12-12T00:00, ToDate: 2024-12-20T23:59:59, Status: PUBLISHED
+2024-12-29T15:36:23.107+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T15:36:28.385+0100 INFO               [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:36:28.397+0100 DEBUG              [http-nio-8081-exec-6]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:36:40.705+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Fetching post with ID: 22
+2024-12-29T15:36:40.711+0100 INFO               [http-nio-8084-exec-7]         be.pxl.services.services.CommentService - Fetching comments for post with ID: 22
+2024-12-29T15:36:40.720+0100 INFO               [http-nio-8081-exec-5]         be.pxl.services.services.PostService - Post with ID: 22 fetched successfully
+2024-12-29T15:36:47.121+0100 INFO               [http-nio-8084-exec-8]         be.pxl.services.services.CommentService - Attempting to create a new comment for post with ID: 22
+2024-12-29T15:36:47.143+0100 INFO               [http-nio-8084-exec-8]         be.pxl.services.services.CommentService - Comment with ID: 9 created successfully
+2024-12-29T15:36:49.199+0100 INFO               [http-nio-8084-exec-9]         be.pxl.services.services.CommentService - Attempting to delete comment with ID: 9
+2024-12-29T15:36:49.242+0100 INFO               [http-nio-8084-exec-9]         be.pxl.services.services.CommentService - Comment with ID: 9 deleted successfully
+2024-12-29T15:36:58.927+0100 INFO               [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:36:58.938+0100 DEBUG              [http-nio-8081-exec-7]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:37:00.450+0100 INFO               [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: jaja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:37:00.457+0100 DEBUG              [http-nio-8081-exec-8]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T15:37:02.109+0100 INFO               [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:37:02.115+0100 DEBUG              [http-nio-8081-exec-9]         be.pxl.services.services.PostService - Found 10 posts with given filters
+2024-12-29T15:37:36.129+0100 INFO               [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:37:36.137+0100 DEBUG              [http-nio-8081-exec-10]        be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:37:37.793+0100 INFO               [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Fetching posts with status: SUBMITTED
+2024-12-29T15:37:37.799+0100 DEBUG              [http-nio-8081-exec-2]         be.pxl.services.services.PostService - Found 1 posts with status: SUBMITTED
+2024-12-29T15:37:38.198+0100 INFO               [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: jaja, FromDate: null, ToDate: null, Status: null
+2024-12-29T15:37:38.206+0100 DEBUG              [http-nio-8081-exec-3]         be.pxl.services.services.PostService - Found 0 posts with given filters
+2024-12-29T15:37:38.481+0100 INFO               [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Fetching posts with filters - Content: null, Author: null, FromDate: null, ToDate: null, Status: PUBLISHED
+2024-12-29T15:37:38.487+0100 DEBUG              [http-nio-8081-exec-4]         be.pxl.services.services.PostService - Found 10 posts with given filters

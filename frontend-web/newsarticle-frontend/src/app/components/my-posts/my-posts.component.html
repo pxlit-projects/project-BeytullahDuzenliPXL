@@ -1,0 +1,46 @@
+<div class="p-8 flex flex-col items-center bg-gray-50 min-h-screen">
+    <button
+      (click)="createNewPost()"
+      class="w-full max-w-4xl mb-8 px-4 py-2 bg-blue-600 text-white font-medium rounded-md shadow hover:bg-blue-700 transition-all duration-300"
+    >
+      Nieuwe Post Aanmaken
+    </button>
+  
+    @for (post of myPosts; track post.id) {
+      <div
+        class="w-full max-w-4xl mb-6 border border-gray-200 rounded-lg shadow-md bg-white overflow-hidden hover:shadow-lg transition-shadow duration-300"
+      >
+        <div class="p-6">
+          <h2
+            class="text-xl font-semibold text-gray-800 transition-colors duration-300"
+          >
+            {{ post.title }} (ID: {{ post.id }})
+          </h2>
+  
+          <p class="mt-3 text-gray-700 leading-relaxed">
+            {{ post.content }}
+          </p>
+  
+          <p class="text-sm text-gray-500 mt-2">
+            Status: <span class="font-medium">{{ post.status }}</span>
+          </p>
+          <p class="text-sm text-gray-500 mt-2">
+            Auteur: <span class="font-medium">{{ post.author }}</span>
+          </p>
+  
+          <div class="mt-4 flex items-center justify-between">
+            <p class="text-sm text-gray-400">Geplaatst op: {{ post.creationDate | date:'yyyy-MM-dd' }}</p>
+            <button
+              (click)="editPost(post.id)"
+              class="px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-md hover:bg-green-700 transition-all duration-300"
+            >
+              Bewerken
+            </button>
+          </div>
+        </div>
+      </div>
+    }
+    @empty {
+      <p class="text-gray-500 text-center text-lg">U heeft nog geen posts.</p>
+    }
+  </div>

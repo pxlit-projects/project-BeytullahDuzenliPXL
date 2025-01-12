@@ -1,0 +1,16 @@
+<div class="notifications max-w-3xl mx-auto mt-8 p-6 bg-gray-50 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold mb-6 text-center text-gray-800">Notificaties</h1>
+  
+    @if (notifications.length === 0) {
+      <p class="text-gray-500 text-center text-lg">Je hebt geen notificaties.</p>
+    } @else {
+      <ul class="space-y-4">
+        @for (notification of notifications; track notification) {
+          <li class="p-4 border border-gray-200 rounded-lg shadow-sm bg-white hover:shadow-md transition-shadow duration-300">
+            <p class="text-gray-800">{{ notification.message }}</p>
+            <p class="text-sm text-gray-500 mt-2">Door: <span class="font-medium">{{ notification.author }}</span></p>
+          </li>
+        }
+      </ul>
+    }
+  </div>

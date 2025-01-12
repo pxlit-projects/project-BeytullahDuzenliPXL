@@ -1,0 +1,61 @@
+<div class="p-8 flex flex-col items-center bg-gray-100 min-h-screen">
+  <div class="w-full max-w-md border border-gray-300 rounded-lg shadow-md bg-white p-6">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+      Login
+    </h2>
+    <form [formGroup]="loginForm" (ngSubmit)="login()" class="space-y-4">
+      <div>
+        <label for="username" class="block text-sm font-medium text-gray-700">
+          Gebruikersnaam
+        </label>
+        <input
+          id="username"
+          formControlName="username"
+          type="text"
+          class="mt-1 block w-full h-10 rounded-md border border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+          placeholder="Voer uw gebruikersnaam in"
+        />
+        @if (username?.invalid && username?.touched) {
+          <div class="text-red-500 text-sm">
+            @if (username?.errors?.['required']) {
+              <p>Gebruikersnaam is verplicht.</p>
+            }
+            @else if (username?.errors?.['minlength']) {
+              <p>Gebruikersnaam moet minstens 3 tekens bevatten.</p>
+            }
+          </div>
+        }
+      </div>
+
+      <div>
+        <label for="role" class="block text-sm font-medium text-gray-700">
+          Rol
+        </label>
+        <select
+          id="role"
+          formControlName="role"
+          class="mt-1 block w-full h-10 rounded-md border border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+        >
+          <option disabled value="">Selecteer een rol</option>
+          <option value="redacteur">Redacteur</option>
+          <option value="gebruiker">Gebruiker</option>
+        </select>
+        @if (role?.invalid && role?.touched) {
+          <div class="text-red-500 text-sm">
+            @if (role?.errors?.['required']) {
+              <p>Selecteer een rol.</p>
+            }
+          </div>
+        }
+      </div>
+
+      <button
+        type="submit"
+        [disabled]="loginForm.invalid"
+        class="w-full bg-blue-600 text-white py-2 px-4 rounded-md shadow-md hover:bg-blue-700 transition-all duration-300"
+      >
+        Login
+      </button>
+    </form>
+  </div>
+</div>

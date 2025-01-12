@@ -4,40 +4,47 @@ server:
 spring:
   cloud:
     gateway:
+      discovery:
+        locator:
+          enabled: true
       globalcors:
         corsConfigurations:
           '[/**]':
             allowedOrigins:
-              - "localhost"
+              - "http://localhost:8080"
+              - "http://localhost:4200"
             allowedMethods:
-              - "*"
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - PATCH
             allowedHeaders:
               - "*"
-            allowedCredentials: true
-      discovery:
-        locator:
-          enabled: true
+            exposedHeaders:
+              - "*"
+            allowCredentials: true
       routes:
         - id: post-service
           uri: lb://post-service
           predicates:
-            - Path=/post/**
+            - Path=/posts/**
           filters:
-            - RewritePath=/post/(?<path>.*), /$\{path}
+            - RewritePath=/posts/(?<path>.*), /posts/$\{path}
         - id: review-service
           uri: lb://review-service
           predicates:
-            - Path=/review/**
+            - Path=/reviews/**
           filters:
-            - RewritePath=/review/(?<path>.*), /$\{path}
+            - RewritePath=/reviews/(?<path>.*), /reviews/$\{path}
         - id: comment-service
           uri: lb://comment-service
           predicates:
-            - Path=/comment/**
+            - Path=/comments/**
           filters:
-            - RewritePath=/comment/(?<path>.*), /$\{path}
+            - RewritePath=/comments/(?<path>.*), /comments/$\{path}
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8061/eureka/
+      defaultZone: http://localhost:8761/eureka/

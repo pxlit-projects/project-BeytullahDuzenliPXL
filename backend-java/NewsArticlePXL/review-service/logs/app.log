@@ -1,0 +1,106 @@
+2025-01-09T13:54:14.963+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3087 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T13:54:14.964+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T13:54:14.964+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T13:54:20.008+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 6.033 seconds (process running for 38.66)
+2025-01-09T13:54:20.735+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 999
+2025-01-09T13:54:20.774+0100 ERROR              [main]                         be.pxl.services.services.ReviewService - Review for post ID: 999 not found
+2025-01-09T13:54:20.822+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T13:54:21.184+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Creating a new review for post ID: 1.
+2025-01-09T13:54:21.254+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review for post with ID: 1 saved successfully
+2025-01-09T13:54:21.355+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review message sent to queue for post ID: 1
+2025-01-09T13:54:21.399+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Notification sent to author of post ID: 1
+2025-01-09T13:54:21.506+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: null
+2025-01-09T13:54:21.574+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T13:55:31.958+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3111 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T13:55:31.959+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T13:55:31.960+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T13:55:36.576+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 5.587 seconds (process running for 30.897)
+2025-01-09T13:55:37.257+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 999
+2025-01-09T13:55:37.295+0100 ERROR              [main]                         be.pxl.services.services.ReviewService - Review for post ID: 999 not found
+2025-01-09T13:55:37.344+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T13:55:37.476+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Creating a new review for post ID: 1.
+2025-01-09T13:55:37.554+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review for post with ID: 1 saved successfully
+2025-01-09T13:55:37.663+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review message sent to queue for post ID: 1
+2025-01-09T13:55:37.684+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Notification sent to author of post ID: 1
+2025-01-09T13:55:37.794+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: null
+2025-01-09T13:55:37.850+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T14:00:36.028+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3191 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:00:36.029+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:00:36.030+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:00:40.874+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 5.818 seconds (process running for 31.518)
+2025-01-09T14:00:41.570+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T14:00:41.740+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Creating a new review for post ID: 1.
+2025-01-09T14:00:41.812+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review for post with ID: 1 saved successfully
+2025-01-09T14:00:41.936+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review message sent to queue for post ID: 1
+2025-01-09T14:00:41.965+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Notification sent to author of post ID: 1
+2025-01-09T14:00:42.107+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T14:00:42.881+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Starting ReviewServiceApplicationTests using Java 17.0.5 with PID 3191 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:00:42.881+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:00:42.881+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:00:43.517+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Started ReviewServiceApplicationTests in 0.726 seconds (process running for 34.161)
+2025-01-09T14:02:26.612+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3243 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:02:26.613+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:02:26.613+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:02:30.977+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 5.316 seconds (process running for 28.843)
+2025-01-09T14:02:31.629+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T14:02:31.827+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Creating a new review for post ID: 1.
+2025-01-09T14:02:31.892+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review for post with ID: 1 saved successfully
+2025-01-09T14:02:31.995+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review message sent to queue for post ID: 1
+2025-01-09T14:02:32.016+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Notification sent to author of post ID: 1
+2025-01-09T14:02:32.138+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T14:02:32.661+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Starting ReviewServiceApplicationTests using Java 17.0.5 with PID 3243 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:02:32.661+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:02:32.661+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:02:33.250+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Started ReviewServiceApplicationTests in 0.66 seconds (process running for 31.117)
+2025-01-09T14:04:24.243+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3292 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:04:24.244+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:04:24.245+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:04:29.276+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 5.948 seconds (process running for 29.036)
+2025-01-09T14:04:30.756+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T14:04:30.952+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Creating a new review for post ID: 1.
+2025-01-09T14:04:31.020+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review for post with ID: 1 saved successfully
+2025-01-09T14:04:31.148+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review message sent to queue for post ID: 1
+2025-01-09T14:04:31.170+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Notification sent to author of post ID: 1
+2025-01-09T14:04:31.315+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T14:04:32.675+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Starting ReviewServiceApplicationTests using Java 17.0.5 with PID 3292 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:04:32.676+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:04:32.677+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:04:34.397+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Started ReviewServiceApplicationTests in 1.924 seconds (process running for 34.158)
+2025-01-09T14:06:25.198+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3332 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:06:25.199+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:06:25.200+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:06:29.924+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 5.671 seconds (process running for 30.168)
+2025-01-09T14:06:30.596+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T14:06:30.772+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Creating a new review for post ID: 1.
+2025-01-09T14:06:30.851+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review for post with ID: 1 saved successfully
+2025-01-09T14:06:30.959+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review message sent to queue for post ID: 1
+2025-01-09T14:06:30.982+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Notification sent to author of post ID: 1
+2025-01-09T14:06:31.112+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T14:06:31.557+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Starting ReviewServiceApplicationTests using Java 17.0.5 with PID 3332 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T14:06:31.557+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T14:06:31.557+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T14:06:32.426+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Started ReviewServiceApplicationTests in 0.957 seconds (process running for 32.671)
+2025-01-09T15:38:42.431+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3794 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T15:38:42.432+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T15:38:42.432+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T15:38:45.377+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 3.518 seconds (process running for 20.835)
+2025-01-09T15:38:45.940+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T15:38:47.457+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T15:38:48.119+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Starting ReviewServiceApplicationTests using Java 17.0.5 with PID 3794 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T15:38:48.120+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T15:38:48.120+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T15:38:48.588+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Started ReviewServiceApplicationTests in 0.544 seconds (process running for 24.046)
+2025-01-09T15:41:03.444+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Starting ReviewControllerTests using Java 17.0.5 with PID 3854 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T15:41:03.444+0100 DEBUG              [main]                         be.pxl.services.ReviewControllerTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T15:41:03.445+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T15:41:06.289+0100 INFO               [main]                         be.pxl.services.ReviewControllerTests - Started ReviewControllerTests in 3.449 seconds (process running for 20.896)
+2025-01-09T15:41:06.791+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Attempting to make or update a review for post with ID: 1
+2025-01-09T15:41:07.106+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Creating a new review for post ID: 1.
+2025-01-09T15:41:07.153+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review for post with ID: 1 saved successfully
+2025-01-09T15:41:07.249+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Review message sent to queue for post ID: 1
+2025-01-09T15:41:07.284+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Notification sent to author of post ID: 1
+2025-01-09T15:41:07.369+0100 INFO               [main]                         be.pxl.services.services.ReviewService - Fetching review for post with ID: 1
+2025-01-09T15:41:07.751+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Starting ReviewServiceApplicationTests using Java 17.0.5 with PID 3854 (started by betytullah in /Users/betytullah/Desktop/3AON 2024-2025/Java/project-BeytullahDuzenliPXL/backend-java/NewsArticlePXL/review-service)
+2025-01-09T15:41:07.752+0100 DEBUG              [main]                         be.pxl.services.ReviewServiceApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-09T15:41:07.752+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-09T15:41:08.153+0100 INFO               [main]                         be.pxl.services.ReviewServiceApplicationTests - Started ReviewServiceApplicationTests in 0.45 seconds (process running for 22.76)
